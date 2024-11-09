@@ -3,8 +3,8 @@ import google.generativeai as genai
 from pinecone import Pinecone
 from sentence_transformers import SentenceTransformer
 
-genai.configure(api_key="AIzaSyCth3JwTTQlK_zj3LbQCYnqaYOe0XNq1AE")
-pc = Pinecone(api_key='0eda1969-7f57-4cc5-9ea4-e13073b52730')
+genai.configure(api_key=" GET YOUR GOOGLE API KEY")
+pc = Pinecone(api_key='GET YOUR PINECONE API KEY')
 
 # Initialize the Gemini model with system instructions
 model = genai.GenerativeModel(
