@@ -1,0 +1,25 @@
+llm:
+  provider: ollama
+  config:
+    model: 'llama3.1:latest'
+    temperature: 0.5
+    top_p: 1
+    stream: true
+    base_url: 'http://localhost:11434'
+embedder:
+  provider: ollama
+  config:
+    model: "mxbai-embed-large:latest"
+    base_url: 'http://localhost:11434'
+vectordb:
+  provider: pinecone
+  config:
+    metric: cosine
+    vector_dimension: 1024
+    index_name: legal-docs
+    serverless_config:
+      cloud: aws
+      region: us-east-1
+
+    
+
