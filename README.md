@@ -155,7 +155,7 @@ export TRACELOOP_API_KEY=your_key
 Launch the notebook:
 
 ```bash
-jupyter notebook eInvestigator.ipynb
+python main.py
 ```
 
 Execute the workflow cells sequentially to:
