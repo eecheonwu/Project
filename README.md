@@ -89,7 +89,7 @@ Retrieved context is combined with the original query and supplied to Gemini to 
 ## Project Structure
 
 ```text
-eInvestigator.ipynb
+eInvestigator
 │
 ├── Model Initialization
 ├── Traceloop Workflow Configuration
